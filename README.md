@@ -1,10 +1,8 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 # Python-Labs
 Лабораторная работа №4, 5, 6.
 =======
-=======
->>>>>>> Stashed changes
+
 # Лабораторные работы по информационному поиску
 
 ## Структура
@@ -18,7 +16,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 cd lab4
 python3 lab4.py
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
