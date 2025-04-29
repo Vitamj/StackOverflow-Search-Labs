@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+gdown==5.2.0
+matplotlib==3.9.2
+nltk==3.9.1
+numpy==1.26.4
+pandas==2.2.3
+rank-bm25==0.2.2
+scikit-learn==1.5.2
+seaborn==0.13.2
