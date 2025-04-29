@@ -1,0 +1,29 @@
+# Лабораторная работа №4
+
+## Описание
+Реализован поиск по датасету StackSample с использованием TF-IDF и BM25. Построен инвертированный индекс, выполняется поиск топ-5 вопросов, извлекаются лучшие ответы.
+
+## Метрики
+- Precision@5 (TF-IDF): 0.00
+- Precision@5 (BM25): 0.00
+
+## Плюсы и минусы
+- **Плюсы**: Быстрая обработка, простота реализации.
+- **Минусы**: Игнорирование синонимов и семантики.
+
+## Пример
+Запрос: how to sort a list in python
+### TF-IDF
+                                                                                  Title  Similarity
+3759                                        Passing a list while retaining the original    0.359976
+1633  What are the Python equivalents of the sighold and sigrelse functions found in C?    0.353642
+9593                       How to return more than one value from a function in Python?    0.327165
+6595                                                          Running numpy from cygwin    0.314166
+3440                                                         Python Inverse of a Matrix    0.289482
+### BM25
+                                                                                  Title  Similarity
+1633  What are the Python equivalents of the sighold and sigrelse functions found in C?   11.773573
+4163                                              Python filter/remove URLs from a list   11.186894
+3759                                        Passing a list while retaining the original   11.072163
+1532                               How to generate all permutations of a list in Python   10.238782
+1465                                      How to Naturally/Numerically Sort a DataView?    9.415090
